@@ -14,3 +14,45 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+// font family: Lato-Black
+@font-face {
+  font-family: Lato_Black;
+  src: url('../assets/fonts/Lato-Black.ttf');
+}
+
+// Font family: Lato-Bold
+@font-face {
+  font-family: Lato_Bold;
+  src: url('../assets/fonts/Lato-Bold.ttf');
+}
+
+// Font family: Lato-Italic
+@font-face {
+  font-family: Lato_Italic;
+  src: url('../assets/fonts/Lato-Italic.ttf');
+}
+
+// Font family: Lato-Regular
+@font-face {
+  font-family: Lato_Regular;
+  src: url('../assets/fonts/Lato-Regular.ttf');
+}
+
+.margin_0{
+  margin: 0;
+}
+
+.padding_0{
+  padding: 0;
+}
+
+// Style Android buttons
+.md button {
+  text-transform: none;
+}
+
+// Style iOS buttons
+.ios button {
+  text-transform: none;
+}
